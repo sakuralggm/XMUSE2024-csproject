@@ -1,0 +1,11 @@
+# .gitignore 文件必须放在仓库的根目录下，这样 Git 才能识别并应用忽略规则。
+
+# 忽略frontend目录下的node_modules
+/frontend/node_modules
+
+# 忽略frontend目录下的npm或yarn的锁文件
+/frontend/package-lock.json
+/frontend/yarn.lock
+
+# 忽略frontend目录下的编辑器配置文件
+/frontend/.vscode/
